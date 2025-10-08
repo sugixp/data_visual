@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Visualization</title>
+
+    <!-- Libraries -->
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Main sketch file -->
+    <script src="sketch.js"></script>
+
+    <!-- Main visualisation files -->
+    <script src="tech-diversity-race.js"></script>
+    <script src="tech-diversity-gender.js"></script>
+    <script src="internet-usage-age.js"></script>
+    <script src="internet-users.js"></script>
+    <script src="internet-users-map.js"></script>
+    <script src="pay-gap-by-job-2017.js"></script>
+    <script src="pay-gap-1997-2017.js"></script>
+    <script src="climate-change.js"></script>
+
+    <!-- Add extra scripts below -->
+    <script src="helper-functions.js"></script>
+    <script src="gallery.js"></script>
+    <script src="pie-chart.js"></script>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+  </head>
+
+  <body>
+    <div id="app" class="container">
+      <!-- Map container (Initially hidden) -->
+      <div id="mapid" 
+      style="display: none; width: 1000px; height: 550px; 
+      position: absolute; left: 280px; top: 20px;
+      border: 2px solid #000000; z-index: 10;"></div>
+      <!-- Menu for visuals -->
+      <ul id="visuals-menu"></ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif
+}
+
+.menu-item {
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.hover {
+    background: lightgray
+}
+
+.selected{
+    background: gold
+}
